@@ -14,10 +14,10 @@ This tutorial leverages [Amazon Web Services](https://aws.amazon.com//) to strea
 
 Follow the AWS [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to install and configure the `aws` command line utility.
 
-Verify the AWS CLI version is 2.7.19 or higher:
+Verify the AWS CLI version is 2.22.17 or higher:
 
 ```
-aws version
+aws --version
 ```
 
 ### Set a Default Compute Region and Zone
@@ -29,8 +29,6 @@ If you are using the `aws` command-line tool for the first time `configure` is t
 ```
 aws configure
 ```
-
-Then be sure to authorize gcloud to access the Cloud Platform with your Google user credentials:
 
 ## Running Commands in Parallel with tmux
 
